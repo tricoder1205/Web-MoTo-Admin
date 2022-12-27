@@ -1,0 +1,7 @@
+.my-moto {
+  min-height: 500px;
+
+  .content__title {
+    @apply text-2xl leading-6 text-gray-900 font-bold
+  }
+}

@@ -1,0 +1,59 @@
+
+.maintenance-list-item {
+  position: relative;
+  padding: 12px 24px;
+  margin: 20px 0 32px;
+
+  border-top: 1px solid rgba(5, 169, 194, 0.8);
+  border-bottom: 1px solid rgba(5, 169, 194, 0.8);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+  border-radius: 8px;
+
+  .item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e3e7ef;
+
+    &-left {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    &-status_right {
+      min-width: 125px;
+      text-align: right;
+    }
+  }
+  .item-content-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #e3e7ef;
+    font-size: 15px;
+    margin: 4px 8px;
+
+    &-info {
+      padding: 8px;
+      margin-right: 20px;
+      p {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+    }
+
+    &-right {
+      flex: 1;
+      border-left: 1px solid #ccc;
+      padding: 10px;
+    }
+  }
+
+  .item-total {
+    padding: 8px 15px;
+    color: #e23719;
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+  }
+}
